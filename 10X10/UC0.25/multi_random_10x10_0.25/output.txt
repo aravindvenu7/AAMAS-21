@@ -1,0 +1,6 @@
+Seed 0
+drone inits [array([5, 5]), array([7, 5]), array([9, 5]), array([5, 9]), array([7, 9]), array([9, 9])]
+ranger inits [array([6, 7]), array([8, 7])]
+poacher inits [array([0, 1]), array([1, 0])]
+/storage/home/aravindvenu/multi_poacher/agent_dqn.py:75: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  state   = Variable(torch.FloatTensor(state).unsqueeze(0).to(device), volatile=True)
